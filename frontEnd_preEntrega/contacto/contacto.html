@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//style.css">
+    <link rel="shortcut icon" href="..//img/logoMariposa.png">
+    <title>LIBRERÍA</title>
+</head>
+<body>
+    <header>
+        <h1>LIBRERÍA ESCOLAR</h1>
+    </header>
+
+    <nav id="barra">
+        <img class="logoMariposa" src="..//img/logoMariposa.png" alt="Logo Mariposa Morada">
+        <ul>
+            <li><a href="..//index.html">Inicio</a></li>
+            <li><a href="..//articulos/articulos.html">Artículos</a></li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
+
+    <main id="formulario">
+        <h2 class="tituloPagina">Formulario de Contacto</h2>
+        
+        <section id="cuadroFormulario">
+            <!-- CUADRO DEL FORMULARIO -->
+            <h3>Complete sus datos:</h3>
+            <form action="..//respuestaFormulario.html" method="#">
+                <fieldset>
+                    <legend><b>Datos Personales</b></legend>
+                    <label for="nombre"> Nombre: <small>*</small>
+                        <input type="text" name="nombre" id="nombre" size="20" maxlength="15" required>
+                    </label>
+                    <label for="apellido"> Apellido: *
+                        <input type="text" name="apellido" id="apellido" maxlength="15" required>
+                    </label>
+                    <br></br>
+                    <label for="number"> DNI: <big>*</big>
+                        <input type="number" name="DNI" id="DNI" size="40" max="100000000" min="1000000" required>
+                    </label>
+                    <label for="Trámite"> Trámite: <big>*</big>
+                        <input type="password" name="Trámite" id="Trámite">
+                    </label>
+                    <br><br>
+                    <label for="fecNac"> Fecha de Nacimiento:
+                        <input type="date" name="fecNac" id="fecNac">
+                    </label>
+                    <label for="correo">Correo Electrónico:
+                        <input type="email" name="correo" id="correo" laceholder="ejemplo@gmail.com">
+                    </label>
+                    <br><br>
+                    <label for="estatura"> Estatura:
+                        <select name="estatura" id="estatura">
+                            <option value="baja">Baja</option>
+                            <option value="media">Media</option>
+                            <option value="alta">Alta</option>
+                            <option value="super alta" disabled>Super Alta</option>
+                        </select>
+                    </label> <br><br>
+                    <label for="adjuntar"> Adjuntar Foto:
+                        <input type="file" name="adjuntar" id="adjuntar">
+                    </label>
+
+                    <label for="submit">
+                        <input type="submit">
+                    </label>
+
+                </fieldset>
+                <fieldset>
+                    <legend><b> Datos Secundarios:</b></legend>
+                </fieldset>
+            </form>
+        </section>
+    
+
+    </main>
+
+    <section>
+        <img src="" alt="" width="">
+    </section>
+    <footer>
+        <a href="https://www.google.com/">google</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+    </footer>
+    
+</body>
+</html>

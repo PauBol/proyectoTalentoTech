@@ -1,0 +1,64 @@
+*{
+    
+    
+    background-color: rgb(236, 242, 245);
+
+}
+
+h1{
+    text-align: center;
+    font-family: Cambria, Times, 'Times New Roman', serif;
+}
+nav{
+    /* display: inline-flex; con esta propiedad es responsive, se reduce a lo más minimo, pero el FLEX se reduce hasta cierto tamaño */
+    display: flex;
+    float: inline-start;
+    position: relative;
+    text-align: center;
+    width: 100%; /* 1200px*/
+    background-color: violet;
+}
+
+nav ul li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    /* padding: 5% 0%; */
+    color: rgb(179, 23, 179);
+    margin-inline: 10px;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+#barra{
+    /* padding: 5px 5px; */
+    /* margin-left: 1%; */
+    margin-top: auto;
+    font-size: 30px;
+    align-items: center;
+}
+
+.logoMariposa{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+main{
+    font-size: 20px;
+}
+
+.tituloPagina{
+    text-decoration-line: underline;
+    color: rgb(179, 23, 179);
+    margin-left: 10%;
+}
+
+#formulario{
+    box-sizing: border-box;
+    text-align: justify;
+    margin-bottom: 16px;
+    line-height: 1.5em;
+    align-content: center;
+}
+
