@@ -5,11 +5,12 @@
 }
 h1{
     text-align: center;
-    font-family: Cambria, Times, 'Times New Roman', serif;
+    margin: 20px;
+    /* font-family: Cambria, Times, 'Times New Roman', serif; */
 }
+
 h2{
-    margin-top: 3.5em;
-    
+    margin-top: 3.5em;  
 }
 h3{
     margin-top: 1em;
@@ -17,8 +18,14 @@ h3{
 
 body{
     background-color: rgb(239, 209, 248);
+    font-family: "mona sans";
+    font-size: 20px;
 }
-
+.bodyContacto{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/014/086/151/non_2x/3d-sphere-lavender-color-background-flying-abstract-balls-geometric-round-shapes-with-glossy-glow-and-gradient-lilac-or-purple-design-template-modern-minimal-art-backdrop-with-circle-orb-bubbles-vector.jpg);
+    background-position: bottom;
+    height: 1100px;
+}
 /* Barra de NAVEGACION */
 nav{
     /* display: inline-flex; con esta propiedad es responsive, se reduce a lo más minimo, pero el FLEX se reduce hasta cierto tamaño */
@@ -48,10 +55,10 @@ nav ul li{
 }
 ul li a:hover{
     overflow: hidden;
-    color: black;
-    border: solid 30px rgb(253, 251, 251);
+    color: rgb(179, 23, 179);
+    border: solid 30px rgb(239, 209, 248);
     border-radius: 50px;
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(239, 209, 248);;
 }
 
 #barra{
