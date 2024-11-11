@@ -28,6 +28,9 @@ nav{
     text-align: center;
     width: 100%; /* 1200px*/
     background-color: violet;
+    /* justify-content: right; */
+    /* align-items: center; */
+
 }
 
 nav ul li{
@@ -43,6 +46,13 @@ nav ul li{
     /* si activo este border-style marca el border, la intención es jugar HOVER */
     /* border-style: solid; */
 }
+ul li a:hover{
+    overflow: hidden;
+    color: black;
+    border: solid 30px rgb(253, 251, 251);
+    border-radius: 50px;
+    background-color: rgb(253, 251, 251);
+}
 
 #barra{
     /* padding: 5px 5px; */
@@ -53,7 +63,7 @@ nav ul li{
 }
 
 .logoMariposa{
-    margin-left: 0.5em;
+    margin-left: 1em;
     width: 80px;
     height: 80px;
     border-radius: 50px;
@@ -73,8 +83,8 @@ main{
 #mainInicio{
     margin: 20px;
     padding: 5px;
+    text-align: justify;
 }
-
 
 /* pagina de Artículos */
 #mainArticulos{
@@ -95,5 +105,30 @@ main section{
     margin-bottom: 16px;
     line-height: 1.5em;
     align-content: center;
+}
+
+footer{
+    margin-right: 25px;
+    text-align: right;
+}
+
+.imgInicio{
+    display: flex;
+    background-color: rgb(239, 209, 248);
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin-top: 5%;
+}
+
+@media(max-width:870px){
+    #imgUtilesEscolares{
+        position: absolute;
+    }
+    /* .imgInicio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(239, 209, 248);
+    } */
 }
 
