@@ -127,6 +127,17 @@ footer{
     margin-top: 5%;
 }
 
+.contenedorLapices{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr;
+}
+.contenedorSacapuntas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr;
+}
+
 @media(max-width:870px){
     #imgUtilesEscolares{
         position: absolute;
