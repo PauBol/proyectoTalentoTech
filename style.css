@@ -37,7 +37,6 @@ nav{
     background-color: violet;
     /* justify-content: right; */
     /* align-items: center; */
-
 }
 
 nav ul li{
@@ -84,7 +83,7 @@ ul li a:hover{
 
 /* pagina del inicio */
 main{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #mainInicio{
@@ -117,9 +116,21 @@ main{
     margin-bottom: 16px;
     line-height: 1.5em;
 }
-fieldset{
+
+.datos{
+    box-shadow: 20px 20px 1200px rgb(247, 162, 235);
+    filter: drop-shadow(2px 2px 9px rgb(190, 2, 190, .3));
     align-content: center;
     text-align: justify;
+}
+fieldset label input{
+    width: 200px;
+    height: 30px;
+}
+fieldset label select{
+    width: 200px;
+    height: 30px;
+    border: blueviolet solid 2px;
 }
 
 footer{
@@ -135,6 +146,30 @@ footer{
     margin-top: 5%;
 }
 
+.botonEnviar{
+    /* margin: auto;
+    padding: auto; */
+    text-align: center;
+    /* border: yellow solid 10px; */
+    scale: 150%;
+    margin: 25px;
+}
+.botonEnviar a:hover{
+    overflow:visible;
+    color: aqua;
+    flood-color: blue;
+}
+
+.cuadroDatosSecundarios{
+    display: flex-start;
+    margin: 0px;
+    padding: 10px;
+    justify-content: space-between;
+    /* box-sizing: border-box; */
+    /* line-height: 1.5em;
+    width: 100;
+    height: 50px; */
+}
 /* .contenedorLapices{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -144,9 +179,29 @@ footer{
 
 } */
 
+@media(max-width:990px){
+    main{
+        justify-content: center;
+        align-items: center;
+    }
+    fieldset{
+        gap: 20px;
+        display: grid;
+    }
+    fieldset br{
+        display: none;
+    }
+    main{
+
+    }
+}
+
 @media(max-width:870px){
     #imgUtilesEscolares{
         position: absolute;
+    }
+    fieldset{
+        display: grid;
     }
     /* .imgInicio{
         display: flex;

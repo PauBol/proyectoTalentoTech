@@ -23,12 +23,12 @@
 
     <main id="mainFormulario">
         <h2 class="tituloPagina">Formulario de Contacto</h2>
-        <h3>Complete sus datos:</h3>
+        <h3 class="h3DelContacto" >Complete sus datos:</h3>
         <section id="cuadroFormulario">
             <!-- CUADRO DEL FORMULARIO -->
             
             <form action="..//respuestaFormulario.html" method="#">
-                <fieldset>
+                <fieldset class="datos">
                     <legend><b>Datos Personales</b></legend>
                     <label for="nombre"> Nombre: <small>*</small>
                         <input type="text" name="nombre" id="nombre" size="20" maxlength="15" required>
@@ -51,6 +51,14 @@
                         <input type="email" name="correo" id="correo" laceholder="ejemplo@gmail.com">
                     </label>
                     <br><br>
+                    
+                </fieldset>
+
+                <fieldset class="datos">
+                    <legend class="cuadroDatosSecundarios"><b> Datos Secundarios:</b></legend>
+                    <label for="adjuntar"> Adjuntar Foto:
+                        <input type="file" name="adjuntar" id="adjuntar">
+                    </label>
                     <label for="estatura"> Estatura:
                         <select name="estatura" id="estatura">
                             <option value="baja">Baja</option>
@@ -58,18 +66,12 @@
                             <option value="alta">Alta</option>
                             <option value="super alta" disabled>Super Alta</option>
                         </select>
-                    </label> <br><br>
-                    <label for="adjuntar"> Adjuntar Foto:
-                        <input type="file" name="adjuntar" id="adjuntar">
                     </label>
-
-                    <label for="submit">
-                        <input type="submit">
-                    </label>
-
-                </fieldset>
-                <fieldset>
-                    <legend><b> Datos Secundarios:</b></legend>
+                    <section class="botonEnviar">
+                        <label for="submit">
+                            <input type="submit">
+                        </label>
+                    </section>
                 </fieldset>
             </form>
         </section>
