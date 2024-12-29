@@ -19,12 +19,10 @@ function ListaSacapuntas(botonSacapuntas){
     mainArticulos.appendChild(tituloSacapuntas);
     mainArticulos.appendChild(contenedorSacapuntas);
 
-    
-    document.getElementsByClassName("botonSacapuntas").textContent = "SACAPUNTAS"
+    document.getElementsByClassName("botonSacapuntas").textContent ="SACAPUNTAS"
     contenedorLapices.remove()
     tituloLapices.remove()
     alert("Lista de Sacapuntas");
-
 }
 
 function ListaLapices(botonLapices){
