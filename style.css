@@ -101,7 +101,7 @@ main{
     /* background-color: rgb(253, 251, 251); */
     display: grid;
     justify-content: space-evenly;
-    grid-columns: 1fr fr 1fr;
+    grid-column: 1fr fr 1fr;
     grid-row: 1fr 1fr;
 }
 
@@ -245,9 +245,7 @@ footer{
     fieldset br{
         display: none;
     }
-    main{
 
-    }
 }
 /* reloj */
 .reloj{
