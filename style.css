@@ -230,7 +230,7 @@ footer{
     /* border: yellow solid 10px; */
     scale: 130%;
 }
-#botonLapices a:hover{
+#botonSacapuntas a:hover{
     overflow:visible;
     color: rgb(212, 241, 158);
     flood-color: blue;
