@@ -36,27 +36,34 @@ function ListaLapices(botonLapices){
     alert("Lista de Lapices");
 }
 
-// function ListaSacapuntas(contenedorSacapuntas){
-//     document.getElementById("botonSacapuntas").textContent = "SACAPUNTAS"
-//     element.querySelectorAll(contenedorLapices)
-// }
-
 function ListaArticulos(mainArticulos){
     document.getElementsByClassName("botonTodosArticulos").textContent = "TODOS LOS ARTICULOS"
     location.reload()
+
 }
 
-//     element.getElementById('#mainArticulos')
 
-// function seleccionCards(lapiz){
-//     const contenedorLapices =   '<img src="img/lapizAmarillo.jpg" alt="lápiz amarillo" width="400px">'
-//                                 '<img src="img/lapizAzul.jpg" alt="lápiz azul"width="400px">'
-//                                 '<img class="tercerLapiz" src="img/lapizNegro.jpg" alt="lápiz negro"width="400px"'
+// JSON -.-
 
-                                
-//     lapiz.innerHTML(contenedorLapices)
-// }
+/* document.addEventListener("DOMContentLoaded", ()=> {
+    fetch("https://fakestoreapi.com/products")
+        .then((response) => response.json())
+        .then((data) => {
+            const contenedorL = document.getElementsByClassName("contenedorLapices");
+            data.forEach(producto => {
+                contenedorL.innerHTML += `
+                    <section class="contenedorLapices">
+                        <img src="${producto.image}" alt="${producto.title}">
+                        <h3>${producto.title}</h3>
+                    </section>
+                `;
+            });
+        })
+})
 
-
-
-
+const misSacupuntas={
+    articulo : "Sacapunta",
+    color : "Azul",
+    precio : 1
+}
+console.log(misSacupuntas) */

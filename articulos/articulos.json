@@ -1,0 +1,18 @@
+[    
+    {
+        "articulo" : "Sacapunta",
+        "color":"Azul",
+        "precio" : "1"
+    },
+    {
+        "articulo" : "Sacapunta",
+        "color":"Gris",
+        "precio" : "2"
+    },
+    {
+        "articulo" : "Sacapunta",
+        "color":"Rojo",
+        "precio" : "3"
+    }
+
+]
